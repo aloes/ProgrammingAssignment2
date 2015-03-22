@@ -1,10 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 # Should check, whether a matrix has been inversed, cache the inversed one
-# and use it, if values are eqaul.
+# and use it, if values are equal.
 
 ## Write a short comment describing this function
-# It doesn't work properly.
+# Set matrix objects to NULL. Add the solve function. Create the list of setters
+# and getters. It doesn't work properly.
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
   y <- NULL
@@ -26,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 # This function should compare the new matrix to the old matrix and
-# do nothing in case they are equal. I other case the inverted matrix
+# do nothing in case they are equal. In other case the inverted matrix
 # should be returned.
 
 cacheSolve <- function(x, ...) {
